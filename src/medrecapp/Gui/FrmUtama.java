@@ -199,14 +199,15 @@ public class FrmUtama extends javax.swing.JFrame {
 
     private void menuPasienActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuPasienActionPerformed
         // TODO add your handling code here:
-        FrmIntDataPasien fip = new FrmIntDataPasien();
-        fip.setSize(jDesktopPane1.getSize());        /**************** MAXIMIZE Internal Frame *****************/
-        Dimension parentSize = jDesktopPane1.getSize();
-        Dimension childSize = fip.getSize();
-        fip.setLocation((parentSize.width - childSize.width)/2, (parentSize.height - childSize.height)/2);
-        jDesktopPane1.add(fip);
-        fip.show();
-        fip.toFront();
+        
+        //FrmIntDataPasien fip = new FrmIntDataPasien();
+        //fip.setSize(jDesktopPane1.getSize());        /**************** MAXIMIZE Internal Frame *****************/
+        //Dimension parentSize = jDesktopPane1.getSize();
+        //Dimension childSize = fip.getSize();
+        //fip.setLocation((parentSize.width - childSize.width)/2, (parentSize.height - childSize.height)/2);
+        //jDesktopPane1.add(fip);
+        //fip.show();
+        //fip.toFront();
     }//GEN-LAST:event_menuPasienActionPerformed
 
     private void menuJaminanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuJaminanActionPerformed
